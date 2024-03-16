@@ -265,7 +265,7 @@
       "effectUsesFacialGestureRecognition": false,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
-      "effectUsesFonts": false,
+      "effectUsesFonts": true,
       "effectUsesFormFactor": false,
       "effectUsesFrameBrightness": false,
       "effectUsesGalleryPicker": false,
@@ -396,7 +396,7 @@
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
       "effectUsesTouchGestures": true,
-      "effectUsesTwoDimensionalText": false,
+      "effectUsesTwoDimensionalText": true,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
@@ -546,6 +546,20 @@
           "assetDataHash": "8ff2927585017f368740a511cf429644",
           "assetLocator": "patches/Score and Live Counter.arp",
           "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:110-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold",
+          "identifier": "local_font_model:1005-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+          "assetLocator": "1006-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "isExternalAsset": false
         }
       ]
     }
