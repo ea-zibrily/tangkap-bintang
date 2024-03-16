@@ -1,0 +1,171 @@
+{
+  "id": "2c5ba479df4af49f0a3a50c1891ed6031",
+  "revision": "3c5ba479df4af49f0a3a50c1891ed6031",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:118752-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPatch": "template_patch_model:118748-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:118750-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:118754-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPatch": "template_patch_model:118750-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPort": "100",
+        "toPatch": "producer_patch_model:118746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "toPort": "100"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:118920-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPatch": "producer_patch_model:118746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPort": "1002",
+        "toPatch": "template_patch_model:118914-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:118922-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPatch": "template_patch_model:118914-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:118916-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:118924-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPatch": "template_patch_model:118916-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:118918-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "subpatches": [
+          "consumer_patch_model:118918-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "producer_patch_model:118746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "template_patch_model:118748-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "template_patch_model:118750-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "template_patch_model:118914-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "template_patch_model:118916-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Catcher",
+        "identifier": "consumer_patch_model:118918-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "object": "plane:116471-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "objectProperty": "position",
+        "position": [
+          1316,
+          188
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "faceTracker0",
+        "identifier": "producer_patch_model:118746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "object": "facetracker:118124-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "position": [
+          596,
+          140
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "identifier": "template_patch_model:118748-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "position": [
+          227.5,
+          41.25
+        ],
+        "templateId": "builtin.faceTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "identifier": "template_patch_model:118750-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "position": [
+          404,
+          44
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Unpack",
+        "identifier": "template_patch_model:118914-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "position": [
+          788,
+          188
+        ],
+        "templateId": "builtin.group.shaderVectorUnpack",
+        "variantInfo": "shader_vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pack",
+        "identifier": "template_patch_model:118916-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "position": [
+          1148,
+          164
+        ],
+        "templateId": "builtin.group.pack",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": -0.14
+            }
+          }
+        ],
+        "variantInfo": "shader_vec3"
+      }
+    ]
+  }
+}

@@ -22,23 +22,34 @@
   "objects": [
     {
       "modelName": "assets_config_model",
-      "identifier": "assets_config_model:195-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "assets_config_model:195-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "categoriesOrder": [
+        "textures",
+        "patch_assets",
+        "materials"
+      ]
     }
   ],
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "graphs": [
-      {
-        "modelName": "patch_graph",
-        "identifier": "patch_graph:90-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
-      }
-    ]
+    "sectionFileLocation": "catch-the-crystal.patches"
   },
   "children": [
     {
       "modelName": "textures",
-      "identifier": "textures:10-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "textures:10-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "sectionFileLocation": "textures/Catcher.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Heart.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Object.texture"
+        }
+      ]
     },
     {
       "sectionFileLocation": "catch-the-crystal.scene"
@@ -71,7 +82,60 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:48-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "exportConfig:48-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:115923-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:115925-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:115927-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116053-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116055-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116057-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116189-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116191-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116193-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        }
+      ]
     },
     {
       "modelName": "manifest",
@@ -140,7 +204,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -191,8 +255,8 @@
       "effectUsesFaceExpressionExperimental": false,
       "effectUsesFaceExpressionFitting": false,
       "effectUsesFaceExtraction": false,
-      "effectUsesFaceTracker": false,
-      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
       "effectUsesFaceTracker96": false,
       "effectUsesFaceTrackingScripting2D": false,
       "effectUsesFaceTrueScale": false,
@@ -222,7 +286,7 @@
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
       "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": false,
+      "effectUsesInstruction": true,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -338,7 +402,7 @@
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
@@ -444,6 +508,43 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:189-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:353-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "sectionFileLocation": "materials/CatcherMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/CrystalMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/HealthMaterial-2.material"
+        }
+      ]
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:367-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Game Logic - Catch Game",
+          "identifier": "patch_data_base_model:115479-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "assetDataHash": "9d406b7e6c62e16e2b72c741529a9aed",
+          "assetLocator": "patches/Game Logic - Catch Game.arp",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Score and Live Counter",
+          "identifier": "patch_data_base_model:115481-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "assetDataHash": "8ff2927585017f368740a511cf429644",
+          "assetLocator": "patches/Score and Live Counter.arp",
+          "isExternalAsset": true
+        }
+      ]
     }
   ]
 }
