@@ -173,6 +173,34 @@
                   }
                 },
                 {
+                  "modelName": "facetracker",
+                  "name": "FaceTracker",
+                  "identifier": "facetracker:118124-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "faceId": 0,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
                   "modelName": "plane",
                   "name": "Catcher",
                   "identifier": "plane:116471-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
@@ -209,34 +237,6 @@
                   },
                   "verticalAlignment": "center",
                   "verticalSpacing": 0
-                },
-                {
-                  "modelName": "facetracker",
-                  "name": "faceTracker0",
-                  "identifier": "facetracker:118124-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                  "animationMask": {
-                    "position": false,
-                    "rotation": false,
-                    "scale": false
-                  },
-                  "cameraVisibility": "back|front",
-                  "faceId": 0,
-                  "hidden": false,
-                  "layerIdentifier": "layer0",
-                  "outputVisibility": "preview|capture",
-                  "physicsEnabled": false,
-                  "tags": [],
-                  "transform": {
-                    "rx": 0,
-                    "ry": 0,
-                    "rz": 0,
-                    "sx": 1,
-                    "sy": 1,
-                    "sz": 1,
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                  }
                 },
                 {
                   "modelName": "sceneObject",
@@ -375,6 +375,113 @@
                         "sy": 1,
                         "sz": 1,
                         "x": -0.10000000149011612,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    }
+                  ]
+                },
+                {
+                  "modelName": "sceneObject",
+                  "name": "Crystal",
+                  "identifier": "sceneObject:121716-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shapeColor": "0xff808080",
+                  "shapeType": 0,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "plane",
+                      "name": "Crystal_1",
+                      "identifier": "plane:121720-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "Crystal_2",
+                      "identifier": "plane:121746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
                         "y": 0,
                         "z": 0
                       },

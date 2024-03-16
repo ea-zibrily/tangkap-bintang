@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "3c5ba479df4af49f0a3a50c1891ed6031",
+  "revision": "125240c5ba479df4af49f0a3a50c1891ed6031",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -395,7 +395,7 @@
       "effectUsesTexturesScriptingModule": false,
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": false,
+      "effectUsesTouchGestures": true,
       "effectUsesTwoDimensionalText": false,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
@@ -448,7 +448,7 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": null,
+      "manuallyEnabledItemsIds": [],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -472,7 +472,7 @@
       "touchGesturesSupportsPinch": false,
       "touchGesturesSupportsRawTouch": false,
       "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": false,
+      "touchGesturesSupportsTap": true,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
@@ -521,6 +521,9 @@
         },
         {
           "sectionFileLocation": "materials/HealthMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/CursedCrystalMaterial.material"
         }
       ]
     },
