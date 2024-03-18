@@ -257,7 +257,7 @@
                   "tags": [],
                   "transform": {
                     "rx": 0,
-                    "ry": -0,
+                    "ry": 0,
                     "rz": 0,
                     "sx": 0.30000001192092896,
                     "sy": 0.30000001192092896,
@@ -492,7 +492,7 @@
                 },
                 {
                   "modelName": "composition_model",
-                  "name": "canvas0",
+                  "name": "Canvas",
                   "identifier": "composition_model:1003-5a2f9dbb-cc88-424a-8269-184f27b460c8",
                   "animationMask": {
                     "position": false,
@@ -532,11 +532,11 @@
                       },
                       "aspectRatioValue": 1,
                       "cameraVisibility": "back|front",
-                      "color": "0xff000000",
+                      "color": "0xff0000ff",
                       "editable": false,
                       "fillMode": "none",
                       "fontIdentifier": "local_font_model:1005-5a2f9dbb-cc88-424a-8269-184f27b460c8",
-                      "fontSize": 50,
+                      "fontSize": 60,
                       "height": {
                         "unit": {
                           "multiplier": 1,
@@ -585,6 +585,129 @@
                           "unitBase": 10
                         },
                         "value": 31
+                      },
+                      "pinnedTop": true,
+                      "pinnedTopValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 38
+                      },
+                      "pinnedVerticalCenterValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "positionX": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "positionY": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "rotation": 0,
+                      "scaleToFit": false,
+                      "scaleX": 1,
+                      "scaleY": 1,
+                      "tags": [],
+                      "text": "0",
+                      "transform": {
+                        "rx": 0,
+                        "ry": 2.842170943040401E-14,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 29,
+                        "y": 38,
+                        "z": 0.00006103515625
+                      },
+                      "usesFlexibleHeight": false,
+                      "usesFlexibleWidth": false,
+                      "verticalAlignment": "center",
+                      "verticalTextAlignment": "center",
+                      "width": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 330
+                      }
+                    },
+                    {
+                      "modelName": "2_d_text_model",
+                      "name": "Timer",
+                      "identifier": "2_d_text_model74896-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "aspectRatioValue": 1,
+                      "cameraVisibility": "back|front",
+                      "color": "0xff0000ff",
+                      "editable": false,
+                      "fillMode": "none",
+                      "fontIdentifier": "local_font_model:1005-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+                      "fontSize": 60,
+                      "height": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 100
+                      },
+                      "hidden": true,
+                      "horizontalAlignment": "center",
+                      "horizontalTextAlignment": "left",
+                      "isDynamicText": false,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "letterSpacing": 0,
+                      "lineSpacing": 30,
+                      "locksAspectRatio": false,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "pinnedBottom": false,
+                      "pinnedBottomValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedHorizontalCenterValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
+                      },
+                      "pinnedLeft": true,
+                      "pinnedLeftValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 29
+                      },
+                      "pinnedRight": false,
+                      "pinnedRightValue": {
+                        "unit": {
+                          "multiplier": 1,
+                          "unitBase": 10
+                        },
+                        "value": 0
                       },
                       "pinnedTop": true,
                       "pinnedTopValue": {

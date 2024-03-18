@@ -524,6 +524,9 @@
         },
         {
           "sectionFileLocation": "materials/CursedCrystalMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/TransparentMaterial.material"
         }
       ]
     },
@@ -545,6 +548,14 @@
           "identifier": "patch_data_base_model:115481-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
           "assetDataHash": "8ff2927585017f368740a511cf429644",
           "assetLocator": "patches/Score and Live Counter.arp",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Game Timer",
+          "identifier": "patch_data_base_model:71283-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
+          "assetDataHash": "fc0b29fe4b8009b66c7a0f3fec5c932b",
+          "assetLocator": "patches/Game Timer.arp",
           "isExternalAsset": true
         }
       ]
