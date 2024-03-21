@@ -248,7 +248,7 @@
                     "scale": false
                   },
                   "cameraVisibility": "back|front",
-                  "hidden": false,
+                  "hidden": true,
                   "layerIdentifier": "layer0",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
@@ -667,7 +667,7 @@
                         },
                         "value": 100
                       },
-                      "hidden": true,
+                      "hidden": false,
                       "horizontalAlignment": "center",
                       "horizontalTextAlignment": "left",
                       "isDynamicText": false,

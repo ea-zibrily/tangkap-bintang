@@ -26,7 +26,8 @@
       "categoriesOrder": [
         "textures",
         "patch_assets",
-        "materials"
+        "materials",
+        "scripts"
       ]
     }
   ],
@@ -73,12 +74,22 @@
         {
           "modelName": "script_bridging_variables_model",
           "identifier": "script_bridging_variables_model:38-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+        },
+        {
+          "modelName": "script",
+          "name": "script0",
+          "identifier": "script:6227-1e5d7c83-3dde-4fe1-9eef-c81254e68a35",
+          "assetDataHash": "c033b89c67cf07e297e7a742e532d4e1",
+          "assetLocator": "scripts/script.js",
+          "isExternalAsset": true
         }
       ]
     },
     {
       "modelName": "bundled_packages_model",
-      "identifier": "bundled_packages_model:44-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "bundled_packages_model:44-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "assetLocator": "kitchensink.zip",
+      "isExternalAsset": false
     },
     {
       "modelName": "exportConfig",
@@ -221,7 +232,7 @@
       "effectUsesDepthData": false,
       "effectUsesDepthShaderRead": false,
       "effectUsesDeviceMotion": false,
-      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDiagnosticsScriptingModule": true,
       "effectUsesDirectionalLightEstimation": false,
       "effectUsesDspAudioAnalyzer": false,
       "effectUsesDspBitCrusher": false,
@@ -291,11 +302,11 @@
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
       "effectUsesIrisTracking": false,
-      "effectUsesJavaScript": false,
+      "effectUsesJavaScript": true,
       "effectUsesJavaScriptRuntimeForPatches": false,
-      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptScripting": true,
       "effectUsesJavaScriptShaders": false,
-      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesJavascriptToPatchesBridging": true,
       "effectUsesLayers": false,
       "effectUsesLocale": false,
       "effectUsesLocation": false,
@@ -369,7 +380,7 @@
       "effectUsesSceneDepthWithFallback": false,
       "effectUsesSceneObjectTags": false,
       "effectUsesSceneRenderPassResolutionAspectRatio": false,
-      "effectUsesSceneScriptingModule": false,
+      "effectUsesSceneScriptingModule": true,
       "effectUsesScriptAnalytics": false,
       "effectUsesScriptingDynamicInstantiation": false,
       "effectUsesSegmentation": false,
@@ -387,7 +398,7 @@
       "effectUsesStyleTransfer": false,
       "effectUsesSupportedOrientations": false,
       "effectUsesSvg": false,
-      "effectUsesSyncDomApis": false,
+      "effectUsesSyncDomApis": true,
       "effectUsesTargetRecognition": false,
       "effectUsesTextAssets": false,
       "effectUsesTextCaptions": false,
