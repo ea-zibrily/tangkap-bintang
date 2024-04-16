@@ -414,7 +414,7 @@
                   "children": [
                     {
                       "modelName": "plane",
-                      "name": "Crystal_1",
+                      "name": "Start_01",
                       "identifier": "plane:121720-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
                       "animationMask": {
                         "position": false,
@@ -452,8 +452,84 @@
                     },
                     {
                       "modelName": "plane",
-                      "name": "Crystal_2",
+                      "name": "Star_02",
+                      "identifier": "plane:123046-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "Poison_01",
                       "identifier": "plane:121746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "Poison_2",
+                      "identifier": "plane:123393-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
                       "animationMask": {
                         "position": false,
                         "rotation": false,
