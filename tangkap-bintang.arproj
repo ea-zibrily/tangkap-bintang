@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "125240c5ba479df4af49f0a3a50c1891ed6031",
+  "revision": "835936d8aa694289439ba26e26d4ec62e360",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -33,7 +33,7 @@
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "sectionFileLocation": "catch-the-crystal.patches"
+    "sectionFileLocation": "tangkap-bintang.patches"
   },
   "children": [
     {
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "sectionFileLocation": "catch-the-crystal.scene"
+      "sectionFileLocation": "tangkap-bintang.scene"
     },
     {
       "modelName": "layers",
@@ -192,7 +192,7 @@
       "effectUsesAugmentSharableConfig": false,
       "effectUsesAugmentSizeControl": false,
       "effectUsesAutomaticAlphaSort": false,
-      "effectUsesAutomaticInstructions": true,
+      "effectUsesAutomaticInstructions": false,
       "effectUsesBlockModulesConfigExtras": false,
       "effectUsesBlocks": false,
       "effectUsesBlocksDownloadable": false,
@@ -236,7 +236,7 @@
       "effectUsesDspReverb": false,
       "effectUsesDspVocoder": false,
       "effectUsesDynamicCapabilities": false,
-      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicInstructions": true,
       "effectUsesDynamicScriptProperties": false,
       "effectUsesDynamicText": false,
       "effectUsesEmbeddedVideo": false,
@@ -441,7 +441,9 @@
       "instructionFindHandFrontCameraEnabled": true,
       "instructionFindPersonBackCameraEnabled": true,
       "instructionFindPersonFrontCameraEnabled": true,
-      "instructionTokens": null,
+      "instructionTokens": [
+        "tap_to_play"
+      ],
       "interEffectLinkingEffectIds": null,
       "internalScriptingAPIDelay": false,
       "internalScriptingAPIDeprecatedParticles": false,
