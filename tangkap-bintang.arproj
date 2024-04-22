@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "3c5ba479df4af49f0a3a50c1891ed6031",
+  "revision": "835936d8aa694289439ba26e26d4ec62e360",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -22,26 +22,37 @@
   "objects": [
     {
       "modelName": "assets_config_model",
-      "identifier": "assets_config_model:195-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "assets_config_model:195-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "categoriesOrder": [
+        "textures",
+        "patch_assets",
+        "materials"
+      ]
     }
   ],
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "graphs": [
-      {
-        "modelName": "patch_graph",
-        "identifier": "patch_graph:90-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
-      }
-    ]
+    "sectionFileLocation": "tangkap-bintang.patches"
   },
   "children": [
     {
       "modelName": "textures",
-      "identifier": "textures:10-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "textures:10-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "sectionFileLocation": "textures/Catcher.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Heart.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Object.texture"
+        }
+      ]
     },
     {
-      "sectionFileLocation": "catch-the-crystal.scene"
+      "sectionFileLocation": "tangkap-bintang.scene"
     },
     {
       "modelName": "layers",
@@ -71,7 +82,60 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:48-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+      "identifier": "exportConfig:48-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:115923-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:115925-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:115927-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116053-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116055-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116057-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116189-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116191-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:116193-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        }
+      ]
     },
     {
       "modelName": "manifest",
@@ -128,7 +192,7 @@
       "effectUsesAugmentSharableConfig": false,
       "effectUsesAugmentSizeControl": false,
       "effectUsesAutomaticAlphaSort": false,
-      "effectUsesAutomaticInstructions": true,
+      "effectUsesAutomaticInstructions": false,
       "effectUsesBlockModulesConfigExtras": false,
       "effectUsesBlocks": false,
       "effectUsesBlocksDownloadable": false,
@@ -140,7 +204,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -172,7 +236,7 @@
       "effectUsesDspReverb": false,
       "effectUsesDspVocoder": false,
       "effectUsesDynamicCapabilities": false,
-      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicInstructions": true,
       "effectUsesDynamicScriptProperties": false,
       "effectUsesDynamicText": false,
       "effectUsesEmbeddedVideo": false,
@@ -191,8 +255,8 @@
       "effectUsesFaceExpressionExperimental": false,
       "effectUsesFaceExpressionFitting": false,
       "effectUsesFaceExtraction": false,
-      "effectUsesFaceTracker": false,
-      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
       "effectUsesFaceTracker96": false,
       "effectUsesFaceTrackingScripting2D": false,
       "effectUsesFaceTrueScale": false,
@@ -201,7 +265,7 @@
       "effectUsesFacialGestureRecognition": false,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
-      "effectUsesFonts": false,
+      "effectUsesFonts": true,
       "effectUsesFormFactor": false,
       "effectUsesFrameBrightness": false,
       "effectUsesGalleryPicker": false,
@@ -222,7 +286,7 @@
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
       "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": false,
+      "effectUsesInstruction": true,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -331,14 +395,14 @@
       "effectUsesTexturesScriptingModule": false,
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": false,
-      "effectUsesTwoDimensionalText": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": true,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
@@ -377,14 +441,16 @@
       "instructionFindHandFrontCameraEnabled": true,
       "instructionFindPersonBackCameraEnabled": true,
       "instructionFindPersonFrontCameraEnabled": true,
-      "instructionTokens": null,
+      "instructionTokens": [
+        "tap_to_play"
+      ],
       "interEffectLinkingEffectIds": null,
       "internalScriptingAPIDelay": false,
       "internalScriptingAPIDeprecatedParticles": false,
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": null,
+      "manuallyEnabledItemsIds": [],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -408,7 +474,7 @@
       "touchGesturesSupportsPinch": false,
       "touchGesturesSupportsRawTouch": false,
       "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": false,
+      "touchGesturesSupportsTap": true,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
@@ -444,6 +510,71 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:189-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:353-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "sectionFileLocation": "materials/CatcherMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/CrystalMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/HealthMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/CursedCrystalMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/TransparentMaterial.material"
+        }
+      ]
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:367-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Game Logic - Catch Game",
+          "identifier": "patch_data_base_model:115479-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "assetDataHash": "9d406b7e6c62e16e2b72c741529a9aed",
+          "assetLocator": "patches/Game Logic - Catch Game.arp",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Score and Live Counter",
+          "identifier": "patch_data_base_model:115481-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "assetDataHash": "8ff2927585017f368740a511cf429644",
+          "assetLocator": "patches/Score and Live Counter.arp",
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "patch_data_base_model",
+          "name": "Game Timer",
+          "identifier": "patch_data_base_model:71283-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
+          "assetDataHash": "fc0b29fe4b8009b66c7a0f3fec5c932b",
+          "assetLocator": "patches/Game Timer.arp",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:110-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold",
+          "identifier": "local_font_model:1005-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+          "assetLocator": "1006-5a2f9dbb-cc88-424a-8269-184f27b460c8",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "isExternalAsset": false
+        }
+      ]
     }
   ]
 }
