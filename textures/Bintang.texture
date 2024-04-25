@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Bintang",
+  "identifier": "texture:1505-d03c9738-209b-479e-83db-8784346d98b7",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "e0a052c982d3d9a0d46ea87e4abee081",
+  "assetLocator": "textures/Bintang.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:1881-d03c9738-209b-479e-83db-8784346d98b7",
+    "textureExportConfig:2259-d03c9738-209b-479e-83db-8784346d98b7",
+    "textureExportConfig:2639-d03c9738-209b-479e-83db-8784346d98b7"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 996,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "e0a052c982d3d9a0d46ea87e4abee081",
+      "colorCount": 7636,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.617919946786291,
+      "pixelsHigh": 996,
+      "pixelsWide": 1024
+    }
+  ]
+}

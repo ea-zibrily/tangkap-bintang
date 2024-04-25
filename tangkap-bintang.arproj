@@ -48,6 +48,9 @@
         },
         {
           "sectionFileLocation": "textures/Object.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Bintang.texture"
         }
       ]
     },
@@ -133,6 +136,23 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:116193-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:1881-d03c9738-209b-479e-83db-8784346d98b7",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2259-d03c9738-209b-479e-83db-8784346d98b7",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2639-d03c9738-209b-479e-83db-8784346d98b7",
           "method": "fastest"
         }
       ]
@@ -519,7 +539,7 @@
           "sectionFileLocation": "materials/CatcherMaterial-2.material"
         },
         {
-          "sectionFileLocation": "materials/CrystalMaterial-2.material"
+          "sectionFileLocation": "materials/BintangMaterial.material"
         },
         {
           "sectionFileLocation": "materials/HealthMaterial-2.material"

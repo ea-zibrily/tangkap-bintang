@@ -17,6 +17,14 @@
     "connections": [
       {
         "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:10551-d03c9738-209b-479e-83db-8784346d98b7",
+        "fromPatch": "patch_asset_instance_model:93924-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
+        "fromPort": "10927958406120165905",
+        "toPatch": "consumer_patch_model:10549-d03c9738-209b-479e-83db-8784346d98b7",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:10736-5a2f9dbb-cc88-424a-8269-184f27b460c8",
         "fromPatch": "template_patch_model:10734-5a2f9dbb-cc88-424a-8269-184f27b460c8",
         "fromPort": "100",
@@ -393,14 +401,6 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:94796-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
-        "fromPatch": "patch_asset_instance_model:93924-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
-        "fromPort": "10927958406120165905",
-        "toPatch": "consumer_patch_model:94794-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
-        "toPort": "101"
-      },
-      {
-        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:94800-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
         "fromPatch": "patch_asset_instance_model:93924-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
         "fromPort": "5408534475863657827",
@@ -437,6 +437,7 @@
         "modelName": "patch_graph",
         "identifier": "patch_graph:90-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
         "subpatches": [
+          "consumer_patch_model:10549-d03c9738-209b-479e-83db-8784346d98b7",
           "consumer_patch_model:10730-5a2f9dbb-cc88-424a-8269-184f27b460c8",
           "consumer_patch_model:118918-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
           "consumer_patch_model:121728-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
@@ -452,7 +453,6 @@
           "consumer_patch_model:3703-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
           "consumer_patch_model:3705-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
           "consumer_patch_model:5692-36d8aa69-4289-439b-a26e-26d4ec62e360",
-          "consumer_patch_model:94794-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
           "consumer_patch_model:94798-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
           "consumer_patch_model:94802-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
           "consumer_patch_model:94804-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
@@ -483,6 +483,26 @@
       }
     ],
     "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Bintang",
+        "identifier": "consumer_patch_model:10549-d03c9738-209b-479e-83db-8784346d98b7",
+        "object": "sceneObject:121716-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+        "objectProperty": "visible",
+        "position": [
+          2972,
+          980
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
       {
         "modelName": "consumer_patch_model",
         "name": "GameOver",
@@ -817,26 +837,6 @@
         "position": [
           812,
           788
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "bool",
-              "v": true
-            }
-          }
-        ]
-      },
-      {
-        "modelName": "consumer_patch_model",
-        "name": "Health",
-        "identifier": "consumer_patch_model:94794-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
-        "object": "sceneObject:118926-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-        "objectProperty": "visible",
-        "position": [
-          2972,
-          980
         ],
         "values": [
           {
