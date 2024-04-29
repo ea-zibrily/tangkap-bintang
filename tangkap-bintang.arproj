@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "18551059597125433e4a5c9769b2a2f846e845",
+  "revision": "40982859597125433e4a5c9769b2a2f846e845",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -595,10 +595,13 @@
           "sectionFileLocation": "materials/TutorialMaterial-2.material"
         },
         {
-          "sectionFileLocation": "materials/BaseMaterial-2.material"
+          "sectionFileLocation": "materials/GameOverMaterial-2.material"
         },
         {
-          "sectionFileLocation": "materials/GameOverMaterial-2.material"
+          "sectionFileLocation": "materials/FadeMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/BaseMaterial.material"
         }
       ]
     },
@@ -647,25 +650,9 @@
         {
           "modelName": "local_font_model",
           "name": "NotoSans Bold Italic",
-          "identifier": "local_font_model:10131-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-          "assetLocator": "10132-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "identifier": "local_font_model:390728-59597125-433e-4a5c-9769-b2a2f846e845",
+          "assetLocator": "390729-59597125-433e-4a5c-9769-b2a2f846e845",
           "fontIdentity": "com.facebook.editor.fonts.notosans-bolditalic",
-          "isExternalAsset": false
-        },
-        {
-          "modelName": "local_font_model",
-          "name": "Facebook Sans Bold Italic",
-          "identifier": "local_font_model:10976-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-          "assetLocator": "10977-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bolditalic",
-          "isExternalAsset": false
-        },
-        {
-          "modelName": "local_font_model",
-          "name": "NotoSans Italic",
-          "identifier": "local_font_model:11412-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-          "assetLocator": "11413-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-          "fontIdentity": "com.facebook.editor.fonts.notosans-italic",
           "isExternalAsset": false
         }
       ]

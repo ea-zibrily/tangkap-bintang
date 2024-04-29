@@ -1,6 +1,6 @@
 {
   "modelName": "defaultMaterial",
-  "name": "BaseMaterial",
+  "name": "FadeMaterial",
   "identifier": "defaultMaterial:189420-59597125-433e-4a5c-9769-b2a2f846e845",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
