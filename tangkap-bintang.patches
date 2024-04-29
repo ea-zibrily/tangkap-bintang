@@ -702,7 +702,6 @@
           "template_patch_model:272854-59597125-433e-4a5c-9769-b2a2f846e845",
           "template_patch_model:272858-59597125-433e-4a5c-9769-b2a2f846e845",
           "template_patch_model:272866-59597125-433e-4a5c-9769-b2a2f846e845",
-          "template_patch_model:272876-59597125-433e-4a5c-9769-b2a2f846e845",
           "template_patch_model:272878-59597125-433e-4a5c-9769-b2a2f846e845",
           "template_patch_model:272882-59597125-433e-4a5c-9769-b2a2f846e845",
           "template_patch_model:37470-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
@@ -1605,7 +1604,7 @@
         "identifier": "template_patch_model:118748-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
         "position": [
           236,
-          140
+          116
         ],
         "templateId": "builtin.faceTracker"
       },
@@ -1901,32 +1900,6 @@
         ],
         "templateId": "builtin.group.shaderVectorUnpack",
         "variantInfo": "shader_vec3"
-      },
-      {
-        "modelName": "template_patch_model",
-        "name": "Divide",
-        "identifier": "template_patch_model:272876-59597125-433e-4a5c-9769-b2a2f846e845",
-        "templateId": "builtin.variadicMathDiv",
-        "values": [
-          {
-            "port": "1",
-            "value": {
-              "t": "double",
-              "v": 0.5
-            }
-          },
-          {
-            "port": "2",
-            "value": {
-              "t": "double",
-              "v": 1920
-            }
-          }
-        ],
-        "variadicInfo": {
-          "input": 2
-        },
-        "variantInfo": "float"
       },
       {
         "modelName": "template_patch_model",
