@@ -9,6 +9,14 @@
   "visual_programming": {
     "connections": [
       {
+        "fromPatch": "port_forwarding_patch_model:101746-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+        "fromPort": "11070307663969642686",
+        "identifier": "patch_connection_model:101748-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "105"
+      },
+      {
         "fromPatch": "template_patch_model:170674-259c8eea-32bc-4a7f-8baf-f4660900920a",
         "fromPort": "100",
         "identifier": "patch_connection_model:171916-259c8eea-32bc-4a7f-8baf-f4660900920a",
@@ -136,6 +144,7 @@
         "identifier": "patch_group_model:170458-259c8eea-32bc-4a7f-8baf-f4660900920a",
         "inputPorts": [
           "patch_input_port_model:171844-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "patch_input_port_model:101744-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
           "patch_input_port_model:171858-259c8eea-32bc-4a7f-8baf-f4660900920a"
         ],
         "modelName": "patch_group_model",
@@ -150,6 +159,7 @@
           644
         ],
         "subpatches": [
+          "port_forwarding_patch_model:101746-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
           "port_forwarding_patch_model:170474-259c8eea-32bc-4a7f-8baf-f4660900920a",
           "port_forwarding_patch_model:170516-259c8eea-32bc-4a7f-8baf-f4660900920a",
           "port_forwarding_patch_model:171444-259c8eea-32bc-4a7f-8baf-f4660900920a",
@@ -168,6 +178,16 @@
         "values": []
       },
       {
+        "identifier": "port_forwarding_patch_model:101746-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Stop",
+        "position": [
+          -388,
+          -100
+        ],
+        "values": []
+      },
+      {
         "identifier": "port_forwarding_patch_model:170474-259c8eea-32bc-4a7f-8baf-f4660900920a",
         "modelName": "port_forwarding_patch_model",
         "name": "Start",
@@ -182,8 +202,8 @@
         "modelName": "port_forwarding_patch_model",
         "name": "Timer String",
         "position": [
-          418.4189815699837,
-          22.314214035994723
+          692,
+          44
         ],
         "values": []
       },
@@ -212,8 +232,8 @@
         "modelName": "port_forwarding_patch_model",
         "name": "Game Over",
         "position": [
-          660,
-          -172
+          548,
+          -148
         ],
         "values": []
       },
@@ -222,8 +242,8 @@
         "modelName": "template_patch_model",
         "name": "Round",
         "position": [
-          93.21774570017857,
-          94.38354662343852
+          308,
+          44
         ],
         "templateId": "builtin.mathRound",
         "values": [],
@@ -261,8 +281,8 @@
         "modelName": "template_patch_model",
         "name": "To String",
         "position": [
-          148.41898156998383,
-          22.314214035994723
+          476,
+          44
         ],
         "templateId": "builtin.toStringComponent",
         "values": [],
@@ -345,6 +365,16 @@
       }
     ],
     "ports": [
+      {
+        "forwardingPatch": "port_forwarding_patch_model:101746-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+        "identifier": "patch_input_port_model:101744-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+        "modelName": "patch_input_port_model",
+        "portDescription": "",
+        "portName": "Stop",
+        "portTag": "11070307663969642686",
+        "portType": "pulse",
+        "widgetStyle": "default"
+      },
       {
         "defaultValue": {
           "t": "bool",

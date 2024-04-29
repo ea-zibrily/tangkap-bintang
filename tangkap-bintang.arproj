@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "835936d8aa694289439ba26e26d4ec62e360",
+  "revision": "18551059597125433e4a5c9769b2a2f846e845",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -51,6 +51,15 @@
         },
         {
           "sectionFileLocation": "textures/Bintang.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Tutorial.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Base.texture"
+        },
+        {
+          "sectionFileLocation": "textures/GameOver.texture"
         }
       ]
     },
@@ -75,7 +84,25 @@
       "children": [
         {
           "modelName": "script_bridging_variables_model",
-          "identifier": "script_bridging_variables_model:38-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+          "identifier": "script_bridging_variables_model:38-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+          "scriptVariables": [
+            "script_patch_read_variable_model:83602-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+            "script_patch_write_variable_model:84092-04fbff5b-cd08-49be-b1e7-f903f68f0aac"
+          ],
+          "children": [
+            {
+              "modelName": "script_patch_read_variable_model",
+              "name": "isGameOver",
+              "identifier": "script_patch_read_variable_model:83602-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+              "type": "boolean"
+            },
+            {
+              "modelName": "script_patch_write_variable_model",
+              "name": "GameOver",
+              "identifier": "script_patch_write_variable_model:84092-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+              "type": "boolean"
+            }
+          ]
         }
       ]
     },
@@ -154,6 +181,23 @@
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:2639-d03c9738-209b-479e-83db-8784346d98b7",
           "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2323-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2717-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3113-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "method": "fastest",
+          "targetFormat": 1
         }
       ]
     },
@@ -548,7 +592,13 @@
           "sectionFileLocation": "materials/CursedCrystalMaterial.material"
         },
         {
-          "sectionFileLocation": "materials/TransparentMaterial.material"
+          "sectionFileLocation": "materials/TutorialMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/BaseMaterial-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/GameOverMaterial-2.material"
         }
       ]
     },
@@ -576,7 +626,7 @@
           "modelName": "patch_data_base_model",
           "name": "Game Timer",
           "identifier": "patch_data_base_model:71283-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
-          "assetDataHash": "fc0b29fe4b8009b66c7a0f3fec5c932b",
+          "assetDataHash": "cc3b2c8ae5efb8a00cda74412dce0250",
           "assetLocator": "patches/Game Timer.arp",
           "isExternalAsset": true
         }
@@ -592,6 +642,30 @@
           "identifier": "local_font_model:1005-5a2f9dbb-cc88-424a-8269-184f27b460c8",
           "assetLocator": "1006-5a2f9dbb-cc88-424a-8269-184f27b460c8",
           "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "local_font_model",
+          "name": "NotoSans Bold Italic",
+          "identifier": "local_font_model:10131-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "assetLocator": "10132-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "fontIdentity": "com.facebook.editor.fonts.notosans-bolditalic",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold Italic",
+          "identifier": "local_font_model:10976-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "assetLocator": "10977-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bolditalic",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "local_font_model",
+          "name": "NotoSans Italic",
+          "identifier": "local_font_model:11412-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "assetLocator": "11413-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+          "fontIdentity": "com.facebook.editor.fonts.notosans-italic",
           "isExternalAsset": false
         }
       ]
