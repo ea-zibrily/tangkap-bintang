@@ -56,10 +56,13 @@
           "sectionFileLocation": "textures/Tutorial.texture"
         },
         {
+          "sectionFileLocation": "textures/GameOver.texture"
+        },
+        {
           "sectionFileLocation": "textures/Base.texture"
         },
         {
-          "sectionFileLocation": "textures/GameOver.texture"
+          "sectionFileLocation": "textures/Background-2.texture"
         },
         {
           "modelName": "personSegmentationTexture",
@@ -71,9 +74,6 @@
           "name": "cameraTexture",
           "identifier": "cameraTexture:2587-486e1b45-d1b8-4450-86a2-ec03c961079a",
           "sourceSceneObjectIdentifier": "camera:76-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
-        },
-        {
-          "sectionFileLocation": "textures/sty.texture"
         }
       ]
     },
@@ -210,23 +210,6 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:3113-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4271-486e1b45-d1b8-4450-86a2-ec03c961079a",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4835-486e1b45-d1b8-4450-86a2-ec03c961079a",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:5401-486e1b45-d1b8-4450-86a2-ec03c961079a",
           "method": "fastest",
           "targetFormat": 1
         }
