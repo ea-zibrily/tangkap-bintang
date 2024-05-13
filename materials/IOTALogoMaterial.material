@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "GameOverMaterial",
-  "identifier": "defaultMaterial:189422-59597125-433e-4a5c-9769-b2a2f846e845",
+  "name": "IOTALogoMaterial",
+  "identifier": "defaultMaterial:299164-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:18855-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+  "diffuseTextureName": "texture:295854-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

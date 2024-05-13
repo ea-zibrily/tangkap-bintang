@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Sprite_Keranjang",
+  "identifier": "texture:9719-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "44dee63326e8217203eef08c2c32c47e",
+  "assetLocator": "textures/Sprite_Keranjang.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:10327-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:10937-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:11549-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 266,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 498,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "44dee63326e8217203eef08c2c32c47e",
+      "colorCount": 7234,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.104372589569794,
+      "pixelsHigh": 266,
+      "pixelsWide": 498
+    }
+  ]
+}

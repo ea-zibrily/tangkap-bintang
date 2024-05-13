@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "Heart",
-  "identifier": "texture:115473-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+  "name": "UI_GameLogo",
+  "identifier": "texture:242280-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "fb4203045d1fcec755048232a22dd1c2",
-  "assetLocator": "textures/Heart.png",
+  "assetDataHash": "d064ce851c71943042b99411d3fa8738",
+  "assetLocator": "textures/UI_GameLogo.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:115925-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-    "textureExportConfig:116055-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-    "textureExportConfig:116191-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
+    "textureExportConfig:242988-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
+    "textureExportConfig:243698-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
+    "textureExportConfig:244410-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 500,
+  "height": 888,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 500,
+  "width": 889,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "fb4203045d1fcec755048232a22dd1c2",
-      "colorCount": 57,
+      "assetDataHash": "d064ce851c71943042b99411d3fa8738",
+      "colorCount": 255,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 1.4624987146408386,
-      "pixelsHigh": 500,
-      "pixelsWide": 500
+      "entropyOfDistribution": 2.252992731335579,
+      "pixelsHigh": 888,
+      "pixelsWide": 889
     }
   ]
 }

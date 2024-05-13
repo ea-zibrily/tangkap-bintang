@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "BackgroundMaterial",
-  "identifier": "defaultMaterial:5969-486e1b45-d1b8-4450-86a2-ec03c961079a",
+  "name": "GameLogoMaterial",
+  "identifier": "defaultMaterial:245840-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:12165-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "diffuseTextureName": "texture:242280-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -51,7 +51,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "readDepth": false,
+  "readDepth": true,
   "reflectiveTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -68,7 +68,7 @@
     "scaleV": 1
   },
   "transparency": 1,
-  "writeDepth": false,
+  "writeDepth": true,
   "writesToColorBufferAlpha": true,
   "writesToColorBufferBlue": true,
   "writesToColorBufferGreen": true,

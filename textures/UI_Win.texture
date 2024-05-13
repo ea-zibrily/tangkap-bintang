@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "UI_Win",
+  "identifier": "texture:17799-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "63716687337af46cbc99491ad0c6ab8f",
+  "assetLocator": "textures/UI_Win.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:18427-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:19057-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:19689-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 981,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 928,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "63716687337af46cbc99491ad0c6ab8f",
+      "colorCount": 256,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.539887365776135,
+      "pixelsHigh": 981,
+      "pixelsWide": 928
+    }
+  ]
+}

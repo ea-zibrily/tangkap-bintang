@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "Tutorial",
-  "identifier": "texture:1539-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+  "name": "Sprite_Bintang",
+  "identifier": "texture:2087-900b4da5-554c-4abb-bc6d-6bf4806d989e",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "445ccd54ea721fafb991e800f243a5b5",
-  "assetLocator": "textures/Tutorial.png",
+  "assetDataHash": "f1b044527b2bcdf4fdc4d436e6d735ca",
+  "assetLocator": "textures/Sprite_Bintang.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:2323-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-    "textureExportConfig:2717-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
-    "textureExportConfig:3113-04fbff5b-cd08-49be-b1e7-f903f68f0aac"
+    "textureExportConfig:7911-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:8509-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:9111-900b4da5-554c-4abb-bc6d-6bf4806d989e"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 532,
+  "height": 307,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 520,
+  "width": 322,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "445ccd54ea721fafb991e800f243a5b5",
-      "colorCount": 559,
+      "assetDataHash": "f1b044527b2bcdf4fdc4d436e6d735ca",
+      "colorCount": 4312,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 2.773165594819962,
-      "pixelsHigh": 532,
-      "pixelsWide": 520
+      "entropyOfDistribution": 4.2632953560566555,
+      "pixelsHigh": 307,
+      "pixelsWide": 322
     }
   ]
 }

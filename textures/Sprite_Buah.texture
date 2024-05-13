@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Sprite_Buah",
+  "identifier": "texture:2657-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "dd6b32067706df4f9fdd8067c62a5d1c",
+  "assetLocator": "textures/Sprite_Buah.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:7913-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:8511-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:9113-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 346,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 134,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "dd6b32067706df4f9fdd8067c62a5d1c",
+      "colorCount": 1640,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.230048620355612,
+      "pixelsHigh": 346,
+      "pixelsWide": 134
+    }
+  ]
+}

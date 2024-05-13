@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "BackgroundMaterial",
-  "identifier": "defaultMaterial:5969-486e1b45-d1b8-4450-86a2-ec03c961079a",
+  "name": "LoseMaterial",
+  "identifier": "defaultMaterial:189422-59597125-433e-4a5c-9769-b2a2f846e845",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:12165-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "diffuseTextureName": "texture:20329-900b4da5-554c-4abb-bc6d-6bf4806d989e",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -51,7 +51,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "readDepth": false,
+  "readDepth": true,
   "reflectiveTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -68,7 +68,7 @@
     "scaleV": 1
   },
   "transparency": 1,
-  "writeDepth": false,
+  "writeDepth": true,
   "writesToColorBufferAlpha": true,
   "writesToColorBufferBlue": true,
   "writesToColorBufferGreen": true,

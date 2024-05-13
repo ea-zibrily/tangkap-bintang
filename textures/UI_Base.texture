@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "Background",
-  "identifier": "texture:9765-8819bf5d-de86-4f44-86a6-a7c42724bf43",
+  "name": "UI_Base",
+  "identifier": "texture:3938-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "7099a709b9bd76a3117249c5faa38bf9",
-  "assetLocator": "textures/Background.png",
+  "assetDataHash": "3f06da8a691dff7575122610645dd534",
+  "assetLocator": "textures/UI_Base.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
@@ -19,18 +19,18 @@
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 576,
+  "width": 545,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "7099a709b9bd76a3117249c5faa38bf9",
-      "colorCount": 33749,
-      "detectedAlphaChannel": "no_alpha",
+      "assetDataHash": "3f06da8a691dff7575122610645dd534",
+      "colorCount": 1,
+      "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 3.5384879897056027,
+      "entropyOfDistribution": 0,
       "pixelsHigh": 1024,
-      "pixelsWide": 576
+      "pixelsWide": 545
     }
   ]
 }

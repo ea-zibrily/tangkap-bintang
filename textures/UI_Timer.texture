@@ -1,36 +1,41 @@
 {
   "modelName": "texture",
-  "name": "GameOver",
-  "identifier": "texture:18855-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+  "name": "UI_Timer",
+  "identifier": "texture:27639-900b4da5-554c-4abb-bc6d-6bf4806d989e",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "89c79e1ecb4c858cba168a113f4a3070",
-  "assetLocator": "textures/GameOver.png",
+  "assetDataHash": "a3d965b63d55fb3e5cac29a6fee74cec",
+  "assetLocator": "textures/UI_Timer.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:28309-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:28981-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+    "textureExportConfig:29657-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+  ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 500,
+  "height": 184,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 520,
+  "width": 297,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "89c79e1ecb4c858cba168a113f4a3070",
-      "colorCount": 630,
+      "assetDataHash": "a3d965b63d55fb3e5cac29a6fee74cec",
+      "colorCount": 1146,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 2.901101397927818,
-      "pixelsHigh": 500,
-      "pixelsWide": 520
+      "entropyOfDistribution": 4.727562286843179,
+      "pixelsHigh": 184,
+      "pixelsWide": 297
     }
   ]
 }
