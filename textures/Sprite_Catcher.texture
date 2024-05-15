@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "Sprite_Buah",
-  "identifier": "texture:2657-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "name": "Sprite_Catcher",
+  "identifier": "texture:4119-3b33c563-0109-48e9-8403-47f00c20eef7",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "dd6b32067706df4f9fdd8067c62a5d1c",
-  "assetLocator": "textures/Sprite_Buah.png",
+  "assetDataHash": "7441c597e986f3ba115c22501afddd57",
+  "assetLocator": "textures/Sprite_Catcher.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:7913-900b4da5-554c-4abb-bc6d-6bf4806d989e",
-    "textureExportConfig:8511-900b4da5-554c-4abb-bc6d-6bf4806d989e",
-    "textureExportConfig:9113-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+    "textureExportConfig:4885-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5681-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6505-3b33c563-0109-48e9-8403-47f00c20eef7"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 346,
+  "height": 300,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 134,
+  "width": 661,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "dd6b32067706df4f9fdd8067c62a5d1c",
-      "colorCount": 1640,
+      "assetDataHash": "7441c597e986f3ba115c22501afddd57",
+      "colorCount": 255,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 5.230048620355612,
-      "pixelsHigh": 346,
-      "pixelsWide": 134
+      "entropyOfDistribution": 4.36894142744874,
+      "pixelsHigh": 300,
+      "pixelsWide": 661
     }
   ]
 }

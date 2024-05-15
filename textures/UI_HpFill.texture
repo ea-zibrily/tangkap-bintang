@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "UI_Lose",
-  "identifier": "texture:20329-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "name": "UI_HpFill",
+  "identifier": "texture:4075-3b33c563-0109-48e9-8403-47f00c20eef7",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "cff01ee39875d97d63a8cf76d5bff8e1",
-  "assetLocator": "textures/UI_Lose.png",
+  "assetDataHash": "b4fde01015f4baf5171ce9f7ddfea2d5",
+  "assetLocator": "textures/UI_HpFill.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:20973-900b4da5-554c-4abb-bc6d-6bf4806d989e",
-    "textureExportConfig:21621-900b4da5-554c-4abb-bc6d-6bf4806d989e",
-    "textureExportConfig:22273-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+    "textureExportConfig:4875-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5671-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6495-3b33c563-0109-48e9-8403-47f00c20eef7"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 920,
+  "height": 57,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 891,
+  "width": 70,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "cff01ee39875d97d63a8cf76d5bff8e1",
-      "colorCount": 256,
+      "assetDataHash": "b4fde01015f4baf5171ce9f7ddfea2d5",
+      "colorCount": 228,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 4.745946153278593,
-      "pixelsHigh": 920,
-      "pixelsWide": 891
+      "entropyOfDistribution": 5.418660338038143,
+      "pixelsHigh": 57,
+      "pixelsWide": 70
     }
   ]
 }

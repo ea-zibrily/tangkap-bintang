@@ -460,42 +460,187 @@
                   }
                 },
                 {
-                  "modelName": "plane",
-                  "name": "Catcher",
-                  "identifier": "plane:116471-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                  "modelName": "sceneObject",
+                  "name": "Item",
+                  "identifier": "sceneObject:121716-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
                   "animationMask": {
                     "position": false,
                     "rotation": false,
                     "scale": false
                   },
                   "cameraVisibility": "back|front",
-                  "castShadow": false,
                   "hidden": false,
-                  "horizontalAlignment": "center",
-                  "horizontalSpacing": 0,
-                  "isMaterialIdentifierEnabled": true,
                   "layerIdentifier": "layer0",
-                  "materialIdentifier": "defaultMaterial:120782-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
-                  "receiveShadow": false,
-                  "renderPass": "main_scene",
+                  "shapeColor": "0xff808080",
+                  "shapeType": 0,
                   "tags": [],
-                  "textureHeight": 0.1,
-                  "textureWidth": 0.1,
                   "transform": {
                     "rx": 0,
                     "ry": 0,
                     "rz": 0,
-                    "sx": 1.3675785064697266,
-                    "sy": 0.6837892532348633,
-                    "sz": 0.6837892532348633,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
                     "x": 0,
                     "y": 0,
                     "z": 0
                   },
-                  "verticalAlignment": "center",
-                  "verticalSpacing": 0
+                  "children": [
+                    {
+                      "modelName": "plane",
+                      "name": "Bintang_01",
+                      "identifier": "plane:121720-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "Bintang_02",
+                      "identifier": "plane:123046-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "Buah_01",
+                      "identifier": "plane:121746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "Buah_02",
+                      "identifier": "plane:123393-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    }
+                  ]
                 },
                 {
                   "modelName": "sceneObject",
@@ -516,13 +661,13 @@
                   "tags": [],
                   "transform": {
                     "rx": 0,
-                    "ry": 0,
+                    "ry": -0,
                     "rz": 0,
                     "sx": 0.20916670560836792,
                     "sy": 0.20916670560836792,
                     "sz": 0.8366668224334717,
-                    "x": -0.09364010393619537,
-                    "y": 0.09861509501934052,
+                    "x": -0.09364330768585205,
+                    "y": 0.09000000357627869,
                     "z": 0
                   },
                   "children": [
@@ -763,187 +908,42 @@
                   ]
                 },
                 {
-                  "modelName": "sceneObject",
-                  "name": "Item",
-                  "identifier": "sceneObject:121716-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+                  "modelName": "plane",
+                  "name": "Catcher",
+                  "identifier": "plane:116471-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
                   "animationMask": {
                     "position": false,
                     "rotation": false,
                     "scale": false
                   },
                   "cameraVisibility": "back|front",
+                  "castShadow": false,
                   "hidden": false,
+                  "horizontalAlignment": "center",
+                  "horizontalSpacing": 0,
+                  "isMaterialIdentifierEnabled": true,
                   "layerIdentifier": "layer0",
+                  "materialIdentifier": "defaultMaterial:120782-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
-                  "shapeColor": "0xff808080",
-                  "shapeType": 0,
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
                   "tags": [],
+                  "textureHeight": 0.1,
+                  "textureWidth": 0.1,
                   "transform": {
                     "rx": 0,
-                    "ry": 0,
+                    "ry": -0,
                     "rz": 0,
-                    "sx": 1,
-                    "sy": 1,
-                    "sz": 1,
+                    "sx": 1.3326122760772705,
+                    "sy": 0.6663061380386353,
+                    "sz": 0.6663053631782532,
                     "x": 0,
                     "y": 0,
                     "z": 0
                   },
-                  "children": [
-                    {
-                      "modelName": "plane",
-                      "name": "Bintang_01",
-                      "identifier": "plane:121720-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "castShadow": false,
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
-                      "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
-                    },
-                    {
-                      "modelName": "plane",
-                      "name": "Bintang_02",
-                      "identifier": "plane:123046-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "castShadow": false,
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
-                      "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
-                    },
-                    {
-                      "modelName": "plane",
-                      "name": "Buah_01",
-                      "identifier": "plane:121746-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "castShadow": false,
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
-                      "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
-                    },
-                    {
-                      "modelName": "plane",
-                      "name": "Buah_02",
-                      "identifier": "plane:123393-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "castShadow": false,
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
-                      "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
-                    }
-                  ]
+                  "verticalAlignment": "center",
+                  "verticalSpacing": 0
                 },
                 {
                   "modelName": "composition_model",
@@ -1139,7 +1139,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 75
+                        "value": 85
                       },
                       "hidden": false,
                       "horizontalAlignment": "center",
@@ -1220,8 +1220,8 @@
                         "sx": 1,
                         "sy": 1,
                         "sz": 1,
-                        "x": 15,
-                        "y": 5,
+                        "x": 13,
+                        "y": 0,
                         "z": 0
                       },
                       "usesFlexibleHeight": false,
@@ -1232,7 +1232,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 75
+                        "value": 85
                       }
                     },
                     {
@@ -1439,20 +1439,20 @@
                         },
                         "value": 0
                       },
-                      "pinnedTop": false,
+                      "pinnedTop": true,
                       "pinnedTopValue": {
                         "unit": {
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 0
+                        "value": 300
                       },
                       "pinnedVerticalCenterValue": {
                         "unit": {
                           "multiplier": 1,
-                          "unitBase": 20
+                          "unitBase": 10
                         },
-                        "value": -34.21875
+                        "value": 0
                       },
                       "positionX": {
                         "unit": {
@@ -1480,7 +1480,7 @@
                         "sy": 1,
                         "sz": 1,
                         "x": 130,
-                        "y": 225,
+                        "y": 280,
                         "z": 0
                       },
                       "usesFlexibleHeight": false,
@@ -1596,7 +1596,7 @@
                           "text": "0",
                           "transform": {
                             "rx": 0,
-                            "ry": -0,
+                            "ry": 0,
                             "rz": 0,
                             "sx": 1,
                             "sy": 1,
@@ -1661,13 +1661,13 @@
                         },
                         "value": 0
                       },
-                      "pinnedLeft": false,
+                      "pinnedLeft": true,
                       "pinnedLeftValue": {
                         "unit": {
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 0
+                        "value": 580
                       },
                       "pinnedRight": true,
                       "pinnedRightValue": {
@@ -1677,20 +1677,20 @@
                         },
                         "value": 136
                       },
-                      "pinnedTop": false,
+                      "pinnedTop": true,
                       "pinnedTopValue": {
                         "unit": {
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 0
+                        "value": 300
                       },
                       "pinnedVerticalCenterValue": {
                         "unit": {
                           "multiplier": 1,
-                          "unitBase": 20
+                          "unitBase": 10
                         },
-                        "value": -34.21875
+                        "value": 0
                       },
                       "positionX": {
                         "unit": {
@@ -1718,7 +1718,7 @@
                         "sy": 1,
                         "sz": 1,
                         "x": 580,
-                        "y": 225,
+                        "y": 280,
                         "z": -0.000244140625
                       },
                       "usesFlexibleHeight": false,
@@ -1834,7 +1834,7 @@
                           "text": "0",
                           "transform": {
                             "rx": 0,
-                            "ry": -0,
+                            "ry": 0,
                             "rz": 0,
                             "sx": 1,
                             "sy": 1,
@@ -1870,7 +1870,7 @@
                   },
                   "cameraVisibility": "back|front",
                   "height": 1920,
-                  "hidden": true,
+                  "hidden": false,
                   "layerIdentifier": "layer3",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
@@ -1983,7 +1983,7 @@
                       "tags": [],
                       "transform": {
                         "rx": 0,
-                        "ry": -0,
+                        "ry": 0,
                         "rz": 0,
                         "sx": 1,
                         "sy": 1,
@@ -2020,7 +2020,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 888
+                        "value": 221
                       },
                       "hidden": false,
                       "horizontalAlignment": "center",
@@ -2051,15 +2051,15 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 100
+                        "value": 400
                       },
-                      "pinnedRight": true,
+                      "pinnedRight": false,
                       "pinnedRightValue": {
                         "unit": {
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 88.75
+                        "value": 0
                       },
                       "pinnedTop": true,
                       "pinnedTopValue": {
@@ -2067,7 +2067,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 0
+                        "value": 320
                       },
                       "pinnedVerticalCenterValue": {
                         "unit": {
@@ -2098,11 +2098,11 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.800000011920929,
-                        "sy": 0.800000011920929,
+                        "sx": 1.649999976158142,
+                        "sy": 1.649999976158142,
                         "sz": 1,
-                        "x": 100,
-                        "y": 0,
+                        "x": 400,
+                        "y": 340,
                         "z": -0.000244140625
                       },
                       "usesFlexibleHeight": false,
@@ -2113,7 +2113,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 891.25
+                        "value": 300
                       }
                     },
                     {
@@ -2211,11 +2211,11 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 1.25,
-                        "sy": 1.25,
+                        "sx": 1.350000023841858,
+                        "sy": 1.350000023841858,
                         "sz": 1,
                         "x": 300,
-                        "y": 750,
+                        "y": 800,
                         "z": -0.000244140625
                       },
                       "usesFlexibleHeight": false,
@@ -2425,7 +2425,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 1380
+                        "value": 1430
                       },
                       "pinnedVerticalCenterValue": {
                         "unit": {
@@ -2462,7 +2462,7 @@
                         "sy": 1,
                         "sz": 1,
                         "x": 250,
-                        "y": 1380,
+                        "y": 1430,
                         "z": -0.000244140625
                       },
                       "usesFlexibleHeight": false,

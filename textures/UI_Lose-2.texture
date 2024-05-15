@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "UI_GameLogo",
-  "identifier": "texture:242280-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
+  "name": "UI_Lose",
+  "identifier": "texture:4083-3b33c563-0109-48e9-8403-47f00c20eef7",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "d064ce851c71943042b99411d3fa8738",
-  "assetLocator": "textures/UI_GameLogo.png",
+  "assetDataHash": "339efbca7157918c6913a22e1e806bdb",
+  "assetLocator": "textures/UI_Lose.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:242988-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
-    "textureExportConfig:243698-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
-    "textureExportConfig:244410-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5"
+    "textureExportConfig:4877-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5673-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6497-3b33c563-0109-48e9-8403-47f00c20eef7"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 888,
+  "height": 465,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 889,
+  "width": 450,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "d064ce851c71943042b99411d3fa8738",
-      "colorCount": 255,
+      "assetDataHash": "339efbca7157918c6913a22e1e806bdb",
+      "colorCount": 254,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 2.252992731335579,
-      "pixelsHigh": 888,
-      "pixelsWide": 889
+      "entropyOfDistribution": 5.346270157014548,
+      "pixelsHigh": 465,
+      "pixelsWide": 450
     }
   ]
 }

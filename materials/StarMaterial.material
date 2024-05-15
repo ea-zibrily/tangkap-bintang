@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "BuahMaterial",
-  "identifier": "defaultMaterial:121795-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
+  "name": "StarMaterial",
+  "identifier": "defaultMaterial:120784-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:2657-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "diffuseTextureName": "texture:4071-3b33c563-0109-48e9-8403-47f00c20eef7",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

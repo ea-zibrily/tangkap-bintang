@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "UI_Timer",
-  "identifier": "texture:27639-900b4da5-554c-4abb-bc6d-6bf4806d989e",
+  "name": "Logo_Game",
+  "identifier": "texture:4103-3b33c563-0109-48e9-8403-47f00c20eef7",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "a3d965b63d55fb3e5cac29a6fee74cec",
-  "assetLocator": "textures/UI_Timer.png",
+  "assetDataHash": "09ca4fa7175803af5ca4e4d531d8d07e",
+  "assetLocator": "textures/Logo_Game.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:28309-900b4da5-554c-4abb-bc6d-6bf4806d989e",
-    "textureExportConfig:28981-900b4da5-554c-4abb-bc6d-6bf4806d989e",
-    "textureExportConfig:29657-900b4da5-554c-4abb-bc6d-6bf4806d989e"
+    "textureExportConfig:4883-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5679-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6503-3b33c563-0109-48e9-8403-47f00c20eef7"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 184,
+  "height": 221,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 297,
+  "width": 300,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "a3d965b63d55fb3e5cac29a6fee74cec",
-      "colorCount": 1146,
+      "assetDataHash": "09ca4fa7175803af5ca4e4d531d8d07e",
+      "colorCount": 256,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 4.727562286843179,
-      "pixelsHigh": 184,
-      "pixelsWide": 297
+      "entropyOfDistribution": 5.8762865711518115,
+      "pixelsHigh": 221,
+      "pixelsWide": 300
     }
   ]
 }
