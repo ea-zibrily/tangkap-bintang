@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "1117453b33c563010948e9840347f00c20eef7",
+  "revision": "39419b7d4e8fde98349eea6d1519c988d4666",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -27,7 +27,9 @@
         "textures",
         "patch_assets",
         "materials",
-        "custom_fonts"
+        "custom_fonts",
+        "audio",
+        "playback_controllers"
       ]
     }
   ],
@@ -65,6 +67,12 @@
           "sectionFileLocation": "textures/Sprite_Star.texture"
         },
         {
+          "sectionFileLocation": "textures/Sprite_Cera-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Sprite_Felix-2.texture"
+        },
+        {
           "sectionFileLocation": "textures/Sprite_Background-2.texture"
         },
         {
@@ -92,13 +100,28 @@
           "sectionFileLocation": "textures/UI_Lose-2.texture"
         },
         {
+          "sectionFileLocation": "textures/UI_Header.texture"
+        },
+        {
+          "sectionFileLocation": "textures/UI_Footer.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Logo_Event.texture"
+        },
+        {
           "sectionFileLocation": "textures/Logo_Game.texture"
         },
         {
           "sectionFileLocation": "textures/Logo_IOTA.texture"
         },
         {
-          "sectionFileLocation": "textures/Logo_Sponsorship.texture"
+          "sectionFileLocation": "textures/Logo_Formula-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Additional_Pink.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Additional_Yellow.texture"
         }
       ]
     },
@@ -452,6 +475,125 @@
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:118469-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3405-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3407-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:4121-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:4123-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:4841-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:4843-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:6491-653066b9-31a7-43a5-85ab-f8ab048d076b",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7241-653066b9-31a7-43a5-85ab-f8ab048d076b",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7993-653066b9-31a7-43a5-85ab-f8ab048d076b",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:27336-653066b9-31a7-43a5-85ab-f8ab048d076b",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:28108-653066b9-31a7-43a5-85ab-f8ab048d076b",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:28882-653066b9-31a7-43a5-85ab-f8ab048d076b",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:6053-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:6055-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:6843-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:6845-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7637-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:7639-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:10011-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:10803-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:11597-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+          "method": "fastest"
         }
       ]
     },
@@ -477,12 +619,12 @@
       "dynamicTextTranslation": false,
       "dynamicTextWeather": false,
       "effectDisablesAudioPreview": false,
-      "effectDisablesMicrophone": false,
+      "effectDisablesMicrophone": true,
       "effectForceAsyncScripting": false,
       "effectForcesSynchronousScripting": false,
       "effectHasAmbientAudio": false,
       "effectHasAudioGraphApi": false,
-      "effectHasTriggeredAudio": false,
+      "effectHasTriggeredAudio": true,
       "effectImageAntiAliasingEdgeSharpness": 0.5,
       "effectImageAntiAliasingEdgeThreshold": 0.5,
       "effectImageAntiAliasingTechnique": "fxaa",
@@ -499,7 +641,7 @@
       "effectUsesAnimationScriptingModule": false,
       "effectUsesAppLauncher": false,
       "effectUsesAssistant": false,
-      "effectUsesAudio": false,
+      "effectUsesAudio": true,
       "effectUsesAudioLegacyMicFork": false,
       "effectUsesAudioMixer": false,
       "effectUsesAudioSpatialEmitter": false,
@@ -866,10 +1008,10 @@
           "sectionFileLocation": "materials/BaseMaterial.material"
         },
         {
-          "sectionFileLocation": "materials/BackgroundMaterial.material"
+          "sectionFileLocation": "materials/PersonMaterial.material"
         },
         {
-          "sectionFileLocation": "materials/PersonMaterial.material"
+          "sectionFileLocation": "materials/BackgroundMaterial.material"
         },
         {
           "sectionFileLocation": "materials/TimerMaterial.material"
@@ -878,13 +1020,28 @@
           "sectionFileLocation": "materials/ScoreMaterial-2.material"
         },
         {
+          "sectionFileLocation": "materials/HeaderMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/FooterMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/EventMaterial.material"
+        },
+        {
           "sectionFileLocation": "materials/GameLogoMaterial.material"
         },
         {
           "sectionFileLocation": "materials/IOTALogoMaterial.material"
         },
         {
-          "sectionFileLocation": "materials/SponsorMaterial-2.material"
+          "sectionFileLocation": "materials/FormulaLogoMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/FelixMaterial.material"
+        },
+        {
+          "sectionFileLocation": "materials/CeraMaterial.material"
         }
       ]
     },
@@ -936,6 +1093,54 @@
           "identifier": "local_font_model:114785-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
           "assetDataHash": "f85072630ace90862c4690f1d61ece93",
           "assetLocator": "fonts/KGHAPPYSolid.ttf",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "playback_controllers_model",
+      "identifier": "playback_controllers_model:476-5877ca6b-ced6-4fc0-9936-478bc130b793",
+      "children": [
+        {
+          "sectionFileLocation": "audios/BGM_MainPlayback.audioctrl"
+        },
+        {
+          "sectionFileLocation": "audios/SFX_StarPlayback.audioctrl"
+        },
+        {
+          "sectionFileLocation": "audios/SFX_FruitPlayback.audioctrl"
+        }
+      ]
+    },
+    {
+      "modelName": "sounds",
+      "identifier": "sounds:482-5877ca6b-ced6-4fc0-9936-478bc130b793",
+      "children": [
+        {
+          "modelName": "sound",
+          "name": "BGM_Main.m4a",
+          "identifier": "sound:2959-5877ca6b-ced6-4fc0-9936-478bc130b793",
+          "assetDataHash": "2283b7c00576189e94041c19697eea65",
+          "assetLocator": "sounds/BGM_Main.m4a",
+          "duration": 38785,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "SFX_Star.m4a",
+          "identifier": "sound:2957-5877ca6b-ced6-4fc0-9936-478bc130b793",
+          "assetDataHash": "a53bd6860805a1c3b311add876d59681",
+          "assetLocator": "sounds/SFX_Star.m4a",
+          "duration": 464,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "SFX_Fruit.m4a",
+          "identifier": "sound:2955-5877ca6b-ced6-4fc0-9936-478bc130b793",
+          "assetDataHash": "6831bb7e3fbe225c454c92c6114fe36c",
+          "assetLocator": "sounds/SFX_Fruit.m4a",
+          "duration": 637,
           "isExternalAsset": true
         }
       ]

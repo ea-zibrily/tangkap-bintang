@@ -1,41 +1,41 @@
 {
   "modelName": "texture",
-  "name": "Logo_Sponsorship",
-  "identifier": "texture:4111-3b33c563-0109-48e9-8403-47f00c20eef7",
+  "name": "Sprite_Felix",
+  "identifier": "texture:5269-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "6cb3942ce3a1b0d14986deda3e891ca9",
-  "assetLocator": "textures/Logo_Sponsorship.png",
+  "assetDataHash": "036e4eef615ba2d4f25015df8ebcc063",
+  "assetLocator": "textures/Sprite_Felix.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
   "excludeDuringExport": false,
   "excludeFromPackage": false,
   "exportConfigurations": [
-    "textureExportConfig:4879-3b33c563-0109-48e9-8403-47f00c20eef7",
-    "textureExportConfig:5675-3b33c563-0109-48e9-8403-47f00c20eef7",
-    "textureExportConfig:6499-3b33c563-0109-48e9-8403-47f00c20eef7"
+    "textureExportConfig:6055-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+    "textureExportConfig:6845-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+    "textureExportConfig:7639-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b"
   ],
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 146,
+  "height": 201,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 350,
+  "width": 201,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "6cb3942ce3a1b0d14986deda3e891ca9",
-      "colorCount": 40,
+      "assetDataHash": "036e4eef615ba2d4f25015df8ebcc063",
+      "colorCount": 11117,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 0.3467378636455227,
-      "pixelsHigh": 146,
-      "pixelsWide": 350
+      "entropyOfDistribution": 5.830091486015445,
+      "pixelsHigh": 201,
+      "pixelsWide": 201
     }
   ]
 }

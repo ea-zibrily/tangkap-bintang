@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Sprite_Cera",
+  "identifier": "texture:5265-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "03647432dfacb1a32dff1b84704df02b",
+  "assetLocator": "textures/Sprite_Cera.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:6053-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+    "textureExportConfig:6843-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+    "textureExportConfig:7637-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 201,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 201,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "03647432dfacb1a32dff1b84704df02b",
+      "colorCount": 9885,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.524561429182069,
+      "pixelsHigh": 201,
+      "pixelsWide": 201
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "SponsorMaterial",
-  "identifier": "defaultMaterial:331780-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
+  "name": "FormulaLogoMaterial",
+  "identifier": "defaultMaterial:9537-653066b9-31a7-43a5-85ab-f8ab048d076b",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:4111-3b33c563-0109-48e9-8403-47f00c20eef7",
+  "diffuseTextureName": "texture:9221-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
