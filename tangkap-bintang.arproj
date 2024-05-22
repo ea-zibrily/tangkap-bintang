@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "39419b7d4e8fde98349eea6d1519c988d4666",
+  "revision": "397131b97888fffb04984a023e5971e080924",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -1167,15 +1167,6 @@
           "assetDataHash": "6831bb7e3fbe225c454c92c6114fe36c",
           "assetLocator": "sounds/SFX_Fruit.m4a",
           "duration": 637,
-          "isExternalAsset": true
-        },
-        {
-          "modelName": "sound",
-          "name": "SFX_WinOld.m4a",
-          "identifier": "sound:519769-ca018ae4-ab62-4f2a-a1c8-c679aee3c636",
-          "assetDataHash": "1fa71836a5e41031026a7eb5a8118442",
-          "assetLocator": "sounds/SFX_WinOld.m4a",
-          "duration": 4365.3515625,
           "isExternalAsset": true
         },
         {

@@ -1,6 +1,6 @@
 {
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "39419b7d4e8fde98349eea6d1519c988d4666",
+  "revision": "397131b97888fffb04984a023e5971e080924",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -560,6 +560,14 @@
       },
       {
         "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:36088-1b97888f-ffb0-4984-a023-e5971e080924",
+        "fromPatch": "patch_asset_instance_model:93924-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
+        "fromPort": "16071394387003113028",
+        "toPatch": "consumer_patch_model:36086-1b97888f-ffb0-4984-a023-e5971e080924",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:3695-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
         "fromPatch": "patch_asset_instance_model:1299-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
         "fromPort": "7993840275107750637",
@@ -819,6 +827,7 @@
           "consumer_patch_model:34164-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
           "consumer_patch_model:34166-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
           "consumer_patch_model:342107-59597125-433e-4a5c-9769-b2a2f846e845",
+          "consumer_patch_model:36086-1b97888f-ffb0-4984-a023-e5971e080924",
           "consumer_patch_model:3689-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
           "consumer_patch_model:3691-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
           "consumer_patch_model:3693-de67dcfc-8ce9-409c-94cf-ea8cae10bb2d",
@@ -888,7 +897,7 @@
         "objectProperty": "visible",
         "position": [
           3188,
-          980
+          1028
         ],
         "values": [
           {
@@ -1176,7 +1185,7 @@
         "objectProperty": "visible",
         "position": [
           2972,
-          884
+          908
         ],
         "values": [
           {
@@ -1333,6 +1342,17 @@
               "v": "0"
             }
           }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "SFX_LosePlayback",
+        "identifier": "consumer_patch_model:36086-1b97888f-ffb0-4984-a023-e5971e080924",
+        "object": "playback_controller_model:9604-1b97888f-ffb0-4984-a023-e5971e080924",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          2972,
+          812
         ]
       },
       {
@@ -1812,7 +1832,7 @@
         "identifier": "template_patch_model:101736-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
         "position": [
           2972,
-          764
+          716
         ],
         "templateId": "builtin.broadcast.emitter",
         "variantInfo": "boolean"
@@ -2371,7 +2391,7 @@
         "identifier": "template_patch_model:44916-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
         "position": [
           2972,
-          980
+          1028
         ],
         "templateId": "builtin.binaryBoolAndOperator"
       },

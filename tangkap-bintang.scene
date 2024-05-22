@@ -4134,7 +4134,7 @@
                     "rotation": false,
                     "scale": false
                   },
-                  "backedByPlaybackController": true,
+                  "backedByPlaybackController": false,
                   "cameraVisibility": "back|front",
                   "distanceToMaxVolume": 0.2,
                   "distanceToMinVolume": 4,
@@ -4146,8 +4146,6 @@
                   "needsContinuousPlaying": false,
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
-                  "playbackControllerIdentifier": "audios/SFX_WinPlayback.audioctrl",
-                  "sound": "sound:4185-1b97888f-ffb0-4984-a023-e5971e080924",
                   "tags": [],
                   "transform": {
                     "rx": 0,
@@ -4160,7 +4158,7 @@
                     "y": 0,
                     "z": 0
                   },
-                  "type": "playback_controller",
+                  "type": "none",
                   "vocoderInput": false,
                   "volume": 1,
                   "volumeMax": 1,
@@ -4194,8 +4192,8 @@
                   "needsContinuousPlaying": false,
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
-                  "playbackControllerIdentifier": "audios/SFX_WinPlayback.audioctrl",
-                  "sound": "sound:4185-1b97888f-ffb0-4984-a023-e5971e080924",
+                  "playbackControllerIdentifier": "audios/SFX_LosePlayback.audioctrl",
+                  "sound": "sound:4187-1b97888f-ffb0-4984-a023-e5971e080924",
                   "tags": [],
                   "transform": {
                     "rx": 0,
