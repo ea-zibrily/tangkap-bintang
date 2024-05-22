@@ -64,14 +64,6 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:10187-5877ca6b-ced6-4fc0-9936-478bc130b793",
-        "fromPatch": "template_patch_model:93926-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
-        "fromPort": "100",
-        "toPatch": "consumer_patch_model:9379-5877ca6b-ced6-4fc0-9936-478bc130b793",
-        "toPort": "1"
-      },
-      {
-        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:102260-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
         "fromPatch": "template_patch_model:93926-dbb3545e-0236-4b44-83c9-2e437a8a4ef2",
         "fromPort": "100",
@@ -512,6 +504,22 @@
       },
       {
         "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:31079-d4a59e3c-8ed9-4d21-a04c-a687ace24736",
+        "fromPatch": "template_patch_model:29181-5877ca6b-ced6-4fc0-9936-478bc130b793",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:9379-5877ca6b-ced6-4fc0-9936-478bc130b793",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:31083-d4a59e3c-8ed9-4d21-a04c-a687ace24736",
+        "fromPatch": "patch_asset_instance_model:30362-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
+        "fromPort": "14643676373727074792",
+        "toPatch": "consumer_patch_model:31081-d4a59e3c-8ed9-4d21-a04c-a687ace24736",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:328583-59597125-433e-4a5c-9769-b2a2f846e845",
         "fromPatch": "template_patch_model:211098-59597125-433e-4a5c-9769-b2a2f846e845",
         "fromPort": "100",
@@ -804,6 +812,7 @@
           "consumer_patch_model:276114-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
           "consumer_patch_model:291106-f1a202f5-afaf-4bc5-9a22-d0ff31c682d5",
           "consumer_patch_model:30029-5877ca6b-ced6-4fc0-9936-478bc130b793",
+          "consumer_patch_model:31081-d4a59e3c-8ed9-4d21-a04c-a687ace24736",
           "consumer_patch_model:328581-59597125-433e-4a5c-9769-b2a2f846e845",
           "consumer_patch_model:338159-59597125-433e-4a5c-9769-b2a2f846e845",
           "consumer_patch_model:34162-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
@@ -1136,7 +1145,7 @@
         "objectProperty": "audio_playback_controller_play",
         "position": [
           476,
-          644
+          620
         ]
       },
       {
@@ -1147,7 +1156,7 @@
         "objectProperty": "visible",
         "position": [
           1004,
-          428
+          404
         ],
         "values": [
           {
@@ -1188,6 +1197,17 @@
         "position": [
           2612,
           1148
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "SFX_WinPlayback",
+        "identifier": "consumer_patch_model:31081-d4a59e3c-8ed9-4d21-a04c-a687ace24736",
+        "object": "playback_controller_model:520653-ca018ae4-ab62-4f2a-a1c8-c679aee3c636",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          1004,
+          500
         ]
       },
       {
@@ -1474,7 +1494,7 @@
         "objectProperty": "volume",
         "position": [
           1124,
-          548
+          572
         ]
       },
       {
@@ -1569,8 +1589,8 @@
         "object": "playback_controller_model:3759-5877ca6b-ced6-4fc0-9936-478bc130b793",
         "objectProperty": "audio_playback_controller_play",
         "position": [
-          380,
-          788
+          476,
+          716
         ]
       },
       {
@@ -1803,7 +1823,7 @@
         "identifier": "template_patch_model:101738-04fbff5b-cd08-49be-b1e7-f903f68f0aac",
         "position": [
           -124,
-          356
+          332
         ],
         "templateId": "builtin.broadcast.receiver",
         "variantInfo": "boolean"
@@ -2184,7 +2204,7 @@
         "identifier": "template_patch_model:27489-5877ca6b-ced6-4fc0-9936-478bc130b793",
         "position": [
           92,
-          572
+          620
         ],
         "templateId": "builtin.negation"
       },
@@ -2194,7 +2214,7 @@
         "identifier": "template_patch_model:29181-5877ca6b-ced6-4fc0-9936-478bc130b793",
         "position": [
           260,
-          572
+          620
         ],
         "templateId": "builtin.binaryBoolAndOperator"
       },
@@ -2243,7 +2263,7 @@
         "identifier": "template_patch_model:37828-5877ca6b-ced6-4fc0-9936-478bc130b793",
         "position": [
           668,
-          572
+          596
         ],
         "templateId": "builtin.delay",
         "values": [
@@ -2263,7 +2283,7 @@
         "identifier": "template_patch_model:37832-5877ca6b-ced6-4fc0-9936-478bc130b793",
         "position": [
           884,
-          548
+          572
         ],
         "templateId": "builtin.IfThenElseOperator",
         "values": [

@@ -1421,7 +1421,7 @@
                           "multiplier": 1,
                           "unitBase": 20
                         },
-                        "value": 0.0000016954210085234283
+                        "value": 0.000002347506008157861
                       },
                       "pinnedLeft": false,
                       "pinnedLeftValue": {
@@ -1479,7 +1479,7 @@
                         "sx": 1,
                         "sy": 1,
                         "sz": 1,
-                        "x": -5.8499908447265625,
+                        "x": -5.8499755859375,
                         "y": 738,
                         "z": 0
                       },
@@ -1511,7 +1511,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 78
+                            "value": 83
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
@@ -1534,7 +1534,7 @@
                               "multiplier": 1,
                               "unitBase": 20
                             },
-                            "value": 0
+                            "value": 0.6223359796081503
                           },
                           "pinnedLeft": false,
                           "pinnedLeftValue": {
@@ -1565,7 +1565,7 @@
                               "multiplier": 1,
                               "unitBase": 20
                             },
-                            "value": -16.379310344827587
+                            "value": -14.224137931034484
                           },
                           "positionX": {
                             "unit": {
@@ -1592,7 +1592,7 @@
                             "sx": 1,
                             "sy": 1,
                             "sz": 1,
-                            "x": 135.8499755859375,
+                            "x": 135.84991455078125,
                             "y": 0,
                             "z": 0
                           },
@@ -1604,7 +1604,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 130
+                            "value": 135
                           }
                         }
                       ]
@@ -1932,7 +1932,7 @@
                           "multiplier": 1,
                           "unitBase": 10
                         },
-                        "value": 300
+                        "value": 280
                       },
                       "pinnedVerticalCenterValue": {
                         "unit": {
@@ -4018,7 +4018,7 @@
                   },
                   "type": "playback_controller",
                   "vocoderInput": false,
-                  "volume": 1,
+                  "volume": 0.8,
                   "volumeMax": 1,
                   "volumeMin": 0,
                   "children": [
@@ -4121,6 +4121,102 @@
                     {
                       "modelName": "audioTransforms",
                       "identifier": "audioTransforms:31742-5877ca6b-ced6-4fc0-9936-478bc130b793"
+                    }
+                  ]
+                },
+                {
+                  "modelName": "audiosource",
+                  "name": "WinSpeaker",
+                  "identifier": "audiosource:543927-ca018ae4-ab62-4f2a-a1c8-c679aee3c636",
+                  "ambient": false,
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "backedByPlaybackController": true,
+                  "cameraVisibility": "back|front",
+                  "distanceToMaxVolume": 0.2,
+                  "distanceToMinVolume": 4,
+                  "hidden": false,
+                  "layerIdentifier": "layer4",
+                  "manualAudioOverrideEnableCapture": "no_override",
+                  "manualAudioOverrideEnableRender": "no_override",
+                  "needsContinuousLooping": false,
+                  "needsContinuousPlaying": false,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "playbackControllerIdentifier": "audios/SFX_WinPlayback.audioctrl",
+                  "sound": "sound:4185-1b97888f-ffb0-4984-a023-e5971e080924",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "type": "playback_controller",
+                  "vocoderInput": false,
+                  "volume": 1,
+                  "volumeMax": 1,
+                  "volumeMin": 0,
+                  "children": [
+                    {
+                      "modelName": "audioTransforms",
+                      "identifier": "audioTransforms:543935-ca018ae4-ab62-4f2a-a1c8-c679aee3c636"
+                    }
+                  ]
+                },
+                {
+                  "modelName": "audiosource",
+                  "name": "LoseSpeaker",
+                  "identifier": "audiosource:3273-1b97888f-ffb0-4984-a023-e5971e080924",
+                  "ambient": false,
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "backedByPlaybackController": true,
+                  "cameraVisibility": "back|front",
+                  "distanceToMaxVolume": 0.2,
+                  "distanceToMinVolume": 4,
+                  "hidden": false,
+                  "layerIdentifier": "layer4",
+                  "manualAudioOverrideEnableCapture": "no_override",
+                  "manualAudioOverrideEnableRender": "no_override",
+                  "needsContinuousLooping": false,
+                  "needsContinuousPlaying": false,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "playbackControllerIdentifier": "audios/SFX_WinPlayback.audioctrl",
+                  "sound": "sound:4185-1b97888f-ffb0-4984-a023-e5971e080924",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "type": "playback_controller",
+                  "vocoderInput": false,
+                  "volume": 1,
+                  "volumeMax": 1,
+                  "volumeMin": 0,
+                  "children": [
+                    {
+                      "modelName": "audioTransforms",
+                      "identifier": "audioTransforms:3271-1b97888f-ffb0-4984-a023-e5971e080924"
                     }
                   ]
                 }

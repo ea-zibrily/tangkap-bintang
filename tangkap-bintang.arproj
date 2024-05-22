@@ -67,6 +67,9 @@
           "sectionFileLocation": "textures/Sprite_Star.texture"
         },
         {
+          "sectionFileLocation": "textures/Sprite_StarGlow.texture"
+        },
+        {
           "sectionFileLocation": "textures/Sprite_Cera-2.texture"
         },
         {
@@ -594,6 +597,23 @@
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:11597-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
           "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:4067-2041a26c-ed68-472d-a927-12ec270bb3e5",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:4945-2041a26c-ed68-472d-a927-12ec270bb3e5",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5825-2041a26c-ed68-472d-a927-12ec270bb3e5",
+          "method": "fastest"
         }
       ]
     },
@@ -1109,6 +1129,12 @@
         },
         {
           "sectionFileLocation": "audios/SFX_FruitPlayback.audioctrl"
+        },
+        {
+          "sectionFileLocation": "audios/SFX_WinPlayback.audioctrl"
+        },
+        {
+          "sectionFileLocation": "audios/SFX_LosePlayback.audioctrl"
         }
       ]
     },
@@ -1141,6 +1167,33 @@
           "assetDataHash": "6831bb7e3fbe225c454c92c6114fe36c",
           "assetLocator": "sounds/SFX_Fruit.m4a",
           "duration": 637,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "SFX_WinOld.m4a",
+          "identifier": "sound:519769-ca018ae4-ab62-4f2a-a1c8-c679aee3c636",
+          "assetDataHash": "1fa71836a5e41031026a7eb5a8118442",
+          "assetLocator": "sounds/SFX_WinOld.m4a",
+          "duration": 4365.3515625,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "SFX_Win.m4a",
+          "identifier": "sound:4185-1b97888f-ffb0-4984-a023-e5971e080924",
+          "assetDataHash": "a32d963586c604a14412f9130021f81f",
+          "assetLocator": "sounds/SFX_Win.m4a",
+          "duration": 4435,
+          "isExternalAsset": true
+        },
+        {
+          "modelName": "sound",
+          "name": "SFX_Lose.m4a",
+          "identifier": "sound:4187-1b97888f-ffb0-4984-a023-e5971e080924",
+          "assetDataHash": "2875709ea9dc956992b7467daad8269c",
+          "assetLocator": "sounds/SFX_Lose.m4a",
+          "duration": 4000,
           "isExternalAsset": true
         }
       ]
