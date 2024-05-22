@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "Sprite_StarGlow",
+  "name": "Sprite_Star",
   "identifier": "texture:3191-2041a26c-ed68-472d-a927-12ec270bb3e5",
   "alphaPremultiplicationMode": "should_premultiply",
   "assetDataHash": "b84ba2782d861dc651d3f6534fb8fcca",
-  "assetLocator": "textures/Sprite_StarGlow.png",
+  "assetLocator": "textures/Sprite_Star.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",

@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-c5ba479d-f4af-49f0-a3a5-0c1891ed6031",
   "id": "2c5ba479df4af49f0a3a50c1891ed6031",
-  "revision": "397131b97888fffb04984a023e5971e080924",
+  "revision": "1602615330cb9cff3416caeca186f4beaac21",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -55,19 +55,13 @@
           "sourceSceneObjectIdentifier": "camera:76-c5ba479d-f4af-49f0-a3a5-0c1891ed6031"
         },
         {
-          "sectionFileLocation": "textures/Sprite_Catcher.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Sprite_CatcherShadow.texture"
+          "sectionFileLocation": "textures/Sprite_Catcher-2.texture"
         },
         {
           "sectionFileLocation": "textures/Sprite_Fruit.texture"
         },
         {
-          "sectionFileLocation": "textures/Sprite_Star.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Sprite_StarGlow.texture"
+          "sectionFileLocation": "textures/Sprite_Star-2.texture"
         },
         {
           "sectionFileLocation": "textures/Sprite_Cera-2.texture"
@@ -119,12 +113,6 @@
         },
         {
           "sectionFileLocation": "textures/Logo_Formula-2.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Additional_Pink.texture"
-        },
-        {
-          "sectionFileLocation": "textures/Additional_Yellow.texture"
         }
       ]
     },
@@ -227,12 +215,6 @@
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4871-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:4873-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest",
           "targetFormat": 1
@@ -264,12 +246,6 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:4883-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4885-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest",
           "targetFormat": 1
         },
@@ -311,12 +287,6 @@
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:5667-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:5669-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest",
           "targetFormat": 2
@@ -348,12 +318,6 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:5679-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:5681-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest",
           "targetFormat": 2
         },
@@ -392,11 +356,6 @@
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:6491-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:6493-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest"
         },
@@ -423,11 +382,6 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:6503-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:6505-3b33c563-0109-48e9-8403-47f00c20eef7",
           "method": "fastest"
         },
         {
@@ -477,40 +431,6 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:118469-3b33c563-0109-48e9-8403-47f00c20eef7",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:3405-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:3407-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4121-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4123-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4841-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:4843-5803dbd5-794b-4bfa-904d-e03efa06f8ab",
           "method": "fastest"
         },
         {
