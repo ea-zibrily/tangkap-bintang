@@ -1,0 +1,8 @@
+{
+  "modelName": "playback_controller_model",
+  "name": "SFX_WinPlayback",
+  "identifier": "playback_controller_model:520653-ca018ae4-ab62-4f2a-a1c8-c679aee3c636",
+  "needsContinuousLooping": false,
+  "needsContinuousPlaying": false,
+  "soundIdentifier": "sound:4185-1b97888f-ffb0-4984-a023-e5971e080924"
+}

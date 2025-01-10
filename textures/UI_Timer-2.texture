@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "UI_Timer",
+  "identifier": "texture:4091-3b33c563-0109-48e9-8403-47f00c20eef7",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "e19a25eb992510ea4613c20edc904cb9",
+  "assetLocator": "textures/UI_Timer.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:4881-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5677-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6501-3b33c563-0109-48e9-8403-47f00c20eef7"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 93,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 150,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "e19a25eb992510ea4613c20edc904cb9",
+      "colorCount": 252,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.00370235076495,
+      "pixelsHigh": 93,
+      "pixelsWide": 150
+    }
+  ]
+}

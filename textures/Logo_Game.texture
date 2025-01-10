@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Logo_Game",
+  "identifier": "texture:4103-3b33c563-0109-48e9-8403-47f00c20eef7",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "09ca4fa7175803af5ca4e4d531d8d07e",
+  "assetLocator": "textures/Logo_Game.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:4883-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5679-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6503-3b33c563-0109-48e9-8403-47f00c20eef7"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 221,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 300,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "09ca4fa7175803af5ca4e4d531d8d07e",
+      "colorCount": 256,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.8762865711518115,
+      "pixelsHigh": 221,
+      "pixelsWide": 300
+    }
+  ]
+}

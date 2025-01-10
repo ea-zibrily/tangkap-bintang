@@ -1,0 +1,8 @@
+{
+  "modelName": "playback_controller_model",
+  "name": "SFX_FruitPlayback",
+  "identifier": "playback_controller_model:6965-5877ca6b-ced6-4fc0-9936-478bc130b793",
+  "needsContinuousLooping": false,
+  "needsContinuousPlaying": false,
+  "soundIdentifier": "sound:2955-5877ca6b-ced6-4fc0-9936-478bc130b793"
+}

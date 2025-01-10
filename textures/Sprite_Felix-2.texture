@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Sprite_Felix",
+  "identifier": "texture:5269-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "036e4eef615ba2d4f25015df8ebcc063",
+  "assetLocator": "textures/Sprite_Felix.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:6055-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+    "textureExportConfig:6845-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b",
+    "textureExportConfig:7639-1e47bddc-a1fc-46fd-a69d-adf88eff4f6b"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 201,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 201,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "036e4eef615ba2d4f25015df8ebcc063",
+      "colorCount": 11117,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.830091486015445,
+      "pixelsHigh": 201,
+      "pixelsWide": 201
+    }
+  ]
+}

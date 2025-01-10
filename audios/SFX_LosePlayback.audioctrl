@@ -1,0 +1,8 @@
+{
+  "modelName": "playback_controller_model",
+  "name": "SFX_LosePlayback",
+  "identifier": "playback_controller_model:9604-1b97888f-ffb0-4984-a023-e5971e080924",
+  "needsContinuousLooping": false,
+  "needsContinuousPlaying": false,
+  "soundIdentifier": "sound:4187-1b97888f-ffb0-4984-a023-e5971e080924"
+}

@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Logo_IOTA",
+  "identifier": "texture:4107-3b33c563-0109-48e9-8403-47f00c20eef7",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "86d0b402a2db73236db53231755fcd8c",
+  "assetLocator": "textures/Logo_IOTA.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:4887-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5683-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6507-3b33c563-0109-48e9-8403-47f00c20eef7"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 150,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 150,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "86d0b402a2db73236db53231755fcd8c",
+      "colorCount": 254,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 3.3422243569078556,
+      "pixelsHigh": 150,
+      "pixelsWide": 150
+    }
+  ]
+}

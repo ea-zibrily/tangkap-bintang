@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Sprite_Background",
+  "identifier": "texture:4115-3b33c563-0109-48e9-8403-47f00c20eef7",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "97fe370b42aa59fcdf4bb0686d75c611",
+  "assetLocator": "textures/Sprite_Background.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:4889-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:5685-3b33c563-0109-48e9-8403-47f00c20eef7",
+    "textureExportConfig:6509-3b33c563-0109-48e9-8403-47f00c20eef7"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 680,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 510,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "97fe370b42aa59fcdf4bb0686d75c611",
+      "colorCount": 256,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.264355683540394,
+      "pixelsHigh": 680,
+      "pixelsWide": 510
+    }
+  ]
+}
